@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="seleniumBasics.DropdownCode">
+      <class name="testNG.SampleTest">
         <methods>
-          <include name="f"/>
+          <include name="browserLaunch"/>
+          <include name="fb"/>
         </methods>
-      </class> <!-- seleniumBasics.DropdownCode -->
+      </class> <!-- testNG.SampleTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

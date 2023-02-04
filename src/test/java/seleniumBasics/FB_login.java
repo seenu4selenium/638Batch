@@ -14,6 +14,7 @@ public class FB_login {
 		//Open Chrome browser
 		driver = new ChromeDriver();
 		
+		
 		//Type FB URL
 		driver.get("https://www.facebook.com/");
 		
