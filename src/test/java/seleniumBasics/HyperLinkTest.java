@@ -13,6 +13,7 @@ public class HyperLinkTest {
 	  driver = new ChromeDriver();
 	  driver.get("https://www.facebook.com/");
 	  
+	 
 	  //Click on Forgot password? hyperlink
 	  driver.findElement(By.linkText("Forgot password?")).click();
 
