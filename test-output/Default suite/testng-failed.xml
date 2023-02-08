@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNG.SampleTest">
+      <class name="testNG.VerifyIsSelectedOrNot">
         <methods>
-          <include name="browserLaunch"/>
-          <include name="fb"/>
+          <include name="f"/>
         </methods>
-      </class> <!-- testNG.SampleTest -->
+      </class> <!-- testNG.VerifyIsSelectedOrNot -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
