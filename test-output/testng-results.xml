@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-07T20:00:25 CST" name="Default suite" finished-at="2023-02-07T20:00:30 CST" duration-ms="5005">
+  <suite started-at="2023-02-08T19:39:21 CST" name="Default suite" finished-at="2023-02-08T19:39:25 CST" duration-ms="3830">
     <groups>
     </groups>
-    <test started-at="2023-02-07T20:00:25 CST" name="Default test" finished-at="2023-02-07T20:00:30 CST" duration-ms="5005">
-      <class name="testNG.GetAllHyperLinksFromGooglePage">
-        <test-method signature="f()[pri:0, instance:testNG.GetAllHyperLinksFromGooglePage@36916eb0]" started-at="2023-02-07T20:00:25 CST" name="f" finished-at="2023-02-07T20:00:30 CST" duration-ms="4966" status="PASS">
+    <test started-at="2023-02-08T19:39:21 CST" name="Default test" finished-at="2023-02-08T19:39:25 CST" duration-ms="3830">
+      <class name="testNG.BlazeDemo_Assignment9">
+        <test-method signature="f()[pri:0, instance:testNG.BlazeDemo_Assignment9@21282ed8]" started-at="2023-02-08T19:39:21 CST" name="f" finished-at="2023-02-08T19:39:25 CST" duration-ms="3783" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-      </class> <!-- testNG.GetAllHyperLinksFromGooglePage -->
+      </class> <!-- testNG.BlazeDemo_Assignment9 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
