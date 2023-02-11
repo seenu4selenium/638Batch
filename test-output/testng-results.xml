@@ -1,17 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-10T19:54:10 CST" name="Default suite" finished-at="2023-02-10T19:54:16 CST" duration-ms="5756">
+  <suite started-at="2023-02-10T20:23:56 CST" name="Suite" finished-at="2023-02-10T20:24:33 CST" duration-ms="37493">
     <groups>
     </groups>
-    <test started-at="2023-02-10T19:54:10 CST" name="Default test" finished-at="2023-02-10T19:54:16 CST" duration-ms="5756">
-      <class name="testNG.ZonalLink">
-        <test-method signature="f()[pri:0, instance:testNG.ZonalLink@12aba8be]" started-at="2023-02-10T19:54:10 CST" name="f" finished-at="2023-02-10T19:54:16 CST" duration-ms="5715" status="PASS">
+    <test started-at="2023-02-10T20:23:56 CST" name="FirefoxTest" finished-at="2023-02-10T20:24:05 CST" duration-ms="9755">
+      <class name="testNG.AlertHandle_Demo">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String)[pri:0, instance:testNG.AlertHandle_Demo@25641d39]" started-at="2023-02-10T20:23:56 CST" name="browserLaunch" finished-at="2023-02-10T20:23:59 CST" duration-ms="3602" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="f()[pri:0, instance:testNG.AlertHandle_Demo@25641d39]" started-at="2023-02-10T20:23:59 CST" name="f" finished-at="2023-02-10T20:24:05 CST" duration-ms="6123" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-      </class> <!-- testNG.ZonalLink -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- testNG.AlertHandle_Demo -->
+    </test> <!-- FirefoxTest -->
+    <test started-at="2023-02-10T20:24:05 CST" name="edgeTest" finished-at="2023-02-10T20:24:27 CST" duration-ms="21122">
+      <class name="testNG.AlertHandle_Demo">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String)[pri:0, instance:testNG.AlertHandle_Demo@8f2ef19]" started-at="2023-02-10T20:24:05 CST" name="browserLaunch" finished-at="2023-02-10T20:24:08 CST" duration-ms="2720" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="f()[pri:0, instance:testNG.AlertHandle_Demo@8f2ef19]" started-at="2023-02-10T20:24:08 CST" name="f" finished-at="2023-02-10T20:24:27 CST" duration-ms="18394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- testNG.AlertHandle_Demo -->
+    </test> <!-- edgeTest -->
+    <test started-at="2023-02-10T20:24:27 CST" name="chromeTest" finished-at="2023-02-10T20:24:33 CST" duration-ms="6574">
+      <class name="testNG.AlertHandle_Demo">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String)[pri:0, instance:testNG.AlertHandle_Demo@7674f035]" started-at="2023-02-10T20:24:27 CST" name="browserLaunch" finished-at="2023-02-10T20:24:28 CST" duration-ms="1032" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="f()[pri:0, instance:testNG.AlertHandle_Demo@7674f035]" started-at="2023-02-10T20:24:28 CST" name="f" finished-at="2023-02-10T20:24:33 CST" duration-ms="5539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- testNG.AlertHandle_Demo -->
+    </test> <!-- chromeTest -->
+  </suite> <!-- Suite -->
 </testng-results>
