@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testNG.CollegeWeekLive"/>
+   <!--    <class name="testNG.SampleTest"/>
+      <class name="testNG.TTD_Webpage_Assignment5"/>
+      <class name="testNG.VerifyIsSelectedOrNot"/> -->
+      <class name="testNG.GetAllHyperLinksFromGooglePage"/>
+      <!-- <class name="testNG.FB_GenderTest"/> -->
+      <class name="testNG.VerifyObjectByUsingSizeMethod"/>
+      <class name="testNG.BlazeDemo_Assignment9"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
