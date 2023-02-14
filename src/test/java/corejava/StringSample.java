@@ -37,6 +37,19 @@ public class StringSample {
 		} else {
 			System.out.println("Given chars are NOT avialble in String");
 		}
+		
+		
+		int r = 123;
+		String s = "234";
+		System.out.println(r+s);//357 or 123234
+		//convert string to int
+		int t = Integer.parseInt(s);
+		System.out.println(r+t);
+		//convert  int to string
+		String u =String.valueOf(r);//"123"
+		System.out.println(s+u);
+
+		
 
 	}
 }
