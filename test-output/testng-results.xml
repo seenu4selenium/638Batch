@@ -1,66 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-10T20:29:13 CST" name="Suite_11Feb2023" finished-at="2023-02-10T20:30:04 CST" duration-ms="50693">
+  <suite started-at="2023-02-16T20:29:08 CST" name="Default suite" finished-at="2023-02-16T20:29:11 CST" duration-ms="2992">
     <groups>
     </groups>
-    <test started-at="2023-02-10T20:29:13 CST" name="FirefoxTest" finished-at="2023-02-10T20:29:24 CST" duration-ms="10926">
-      <class name="testNG.AlertHandle_Demo">
-        <test-method is-config="true" signature="browserLaunch(java.lang.String)[pri:0, instance:testNG.AlertHandle_Demo@25641d39]" started-at="2023-02-10T20:29:13 CST" name="browserLaunch" finished-at="2023-02-10T20:29:17 CST" duration-ms="3511" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserLaunch -->
-        <test-method signature="f()[pri:0, instance:testNG.AlertHandle_Demo@25641d39]" started-at="2023-02-10T20:29:17 CST" name="f" finished-at="2023-02-10T20:29:24 CST" duration-ms="7388" status="PASS">
+    <test started-at="2023-02-16T20:29:08 CST" name="Default test" finished-at="2023-02-16T20:29:11 CST" duration-ms="2992">
+      <class name="dataDrivernFramework.FBLoginWithExcel">
+        <test-method signature="f()[pri:0, instance:dataDrivernFramework.FBLoginWithExcel@d9345cd]" started-at="2023-02-16T20:29:08 CST" name="f" finished-at="2023-02-16T20:29:11 CST" duration-ms="2965" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-      </class> <!-- testNG.AlertHandle_Demo -->
-    </test> <!-- FirefoxTest -->
-    <test started-at="2023-02-10T20:29:24 CST" name="edgeTest" finished-at="2023-02-10T20:29:45 CST" duration-ms="20618">
-      <class name="testNG.AlertHandle_Demo">
-        <test-method is-config="true" signature="browserLaunch(java.lang.String)[pri:0, instance:testNG.AlertHandle_Demo@8f2ef19]" started-at="2023-02-10T20:29:24 CST" name="browserLaunch" finished-at="2023-02-10T20:29:27 CST" duration-ms="2846" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserLaunch -->
-        <test-method signature="f()[pri:0, instance:testNG.AlertHandle_Demo@8f2ef19]" started-at="2023-02-10T20:29:27 CST" name="f" finished-at="2023-02-10T20:29:45 CST" duration-ms="17770" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- testNG.AlertHandle_Demo -->
-    </test> <!-- edgeTest -->
-    <test started-at="2023-02-10T20:29:45 CST" name="chromeTest" finished-at="2023-02-10T20:30:04 CST" duration-ms="19104">
-      <class name="testNG.AlertHandle_Demo">
-        <test-method is-config="true" signature="browserLaunch(java.lang.String)[pri:0, instance:testNG.AlertHandle_Demo@7674f035]" started-at="2023-02-10T20:29:45 CST" name="browserLaunch" finished-at="2023-02-10T20:29:46 CST" duration-ms="970" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserLaunch -->
-        <test-method signature="f()[pri:0, instance:testNG.AlertHandle_Demo@7674f035]" started-at="2023-02-10T20:29:46 CST" name="f" finished-at="2023-02-10T20:30:04 CST" duration-ms="18131" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- testNG.AlertHandle_Demo -->
-    </test> <!-- chromeTest -->
-  </suite> <!-- Suite_11Feb2023 -->
+      </class> <!-- dataDrivernFramework.FBLoginWithExcel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
